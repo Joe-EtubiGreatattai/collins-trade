@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <title>Collins E-trade - Gift Cards</title>
+  </head>
+
+  <body>
+    
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="image/logo.PNG" alt="Logo" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#giftcards">Gift cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="hero relative" id="home">
+      <div class="overlay"></div>
+      <div class="container mx-auto py-16">
+        <h1 class="text-4xl font-bold">Welcome to Collins E-trade</h1>
+        <p class="text-lg mt-4">
+          Your destination for gift cards, including Amazon, Apple, and more.
+        </p>
+      </div>
+    </section>
+    <section class="about-us bg-gray-100 py-8 md:py-16" id="about">
+      <div class="container mx-auto">
+        <div class="md:flex md:items-center">
+          <div class="md:w-1/2 md:text-left md:pr-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">About Us</h2>
+            <p class="text-lg md:text-xl mb-4">
+              At Collins E-trade, we are dedicated to providing you with the
+              best gift card shopping experience. With years of expertise in the
+              industry, we have built a reputation for trustworthiness and
+              exceptional customer satisfaction.
+            </p>
+            <p class="text-lg md:text-xl mb-4">
+              Our mission is to offer a wide range of high-quality gift cards,
+              including popular brands like Amazon, Apple, and more. We
+              understand the importance of finding the perfect gift, and our
+              extensive selection ensures there's something for everyone.
+            </p>
+          </div>
+          <div class="md:w-1/2 md:text-center">
+            <!-- Add your gift card image here -->
+            <img src="image/5.jpeg" alt="Gift Card" class="mx-auto" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gift-cards py-8 md:py-16 bg-gray-200" id="giftcards">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Gift Cards</h2>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"
+        >
+          <!-- Card 1 -->
+          <div class="card">
+            <img
+              src="image/amazon.png"
+              alt="Amazon Gift Card"
+              class="w-full h-auto"
+            />
+            <h3 class="text-lg font-semibold mt-2">Amazon Gift Card</h3>
+            <p class="text-gray-500">$100</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <img
+              src="image/itunes.png"
+              alt="Apple Gift Card"
+              class="w-full h-auto"
+            />
+            <h3 class="text-lg font-semibold mt-2">iTunes Gift Card</h3>
+            <p class="text-gray-500">$100</p>
+          </div>
+          <!-- Card 3 -->
+          <div class="card">
+            <img
+              src="image/ps4.png"
+              alt="Apple Gift Card"
+              class="w-full h-auto"
+            />
+            <h3 class="text-lg font-semibold mt-2">PS4 Gift Card</h3>
+            <p class="text-gray-500">$100</p>
+          </div>
+          <!-- Card 4 -->
+          <div class="card">
+            <img
+              src="image/apple.png"
+              alt="Apple Gift Card"
+              class="w-full h-auto"
+            />
+            <h3 class="text-lg font-semibold mt-2">Apple Gift Card</h3>
+            <p class="text-gray-500">$500</p>
+          </div>
+          <!-- Add more cards here -->
+        </div>
+      </div>
+    </section>
+    <section class="testimonial py-8 md:py-16" id="testimonial">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Testimonials</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <!-- Testimonial Card 1 -->
+          <div class="testimonial-card flex flex-col justify-start items-start">
+            <div
+              class="profile-circle w-12 h-12 bg-gray-300 rounded-full overflow-hidden"
+            >
+              <img
+                src="image/user1.jpeg"
+                alt="Testimonial 1"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <p class="italic mt-2">
+              "This is the best place to get gift cards. Highly recommended!"
+            </p>
+            <p class="text-gray-500 self-end">- John Doe</p>
+          </div>
+
+          <!-- Testimonial Card 2 -->
+          <div class="testimonial-card flex flex-col justify-start items-start">
+            <div
+              class="profile-circle w-12 h-12 bg-gray-300 rounded-full overflow-hidden"
+            >
+              <img
+                src="image/user4.jpeg"
+                alt="Testimonial 2"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <p class="italic mt-2">
+              "I've been buying gift cards from Collins E-trade for years, and
+              they never disappoint. The customer service is excellent, and they
+              always have a great selection."
+            </p>
+            <p class="text-gray-500 self-end">- Sarah Thompson</p>
+          </div>
+
+          <!-- Testimonial Card 3 -->
+          <div class="testimonial-card flex flex-col justify-start items-start">
+            <div
+              class="profile-circle w-12 h-12 bg-gray-300 rounded-full overflow-hidden"
+            >
+              <img
+                src="image/user3.jpeg"
+                alt="Testimonial 3"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <p class="italic mt-2">
+              "Collins E-trade is my go-to place for gift cards. The website is
+              user-friendly, the prices are competitive, and they always deliver
+              quickly. Highly recommended!"
+            </p>
+            <p class="text-gray-500 self-end">- Mark Davis</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services py-16" id="services">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Our Services</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          <div class="service-card">
+            <img src="image/1.jpeg" alt="Service 1" class="service-icon" />
+            <h3 class="text-xl font-semibold mt-4">Gift Card Selection</h3>
+            <p class="text-gray-600 mt-2">
+              Choose from a wide range of gift cards from popular brands.
+            </p>
+          </div>
+          <div class="service-card">
+            <img
+              src="image/discount.jpeg"
+              alt="Service 2"
+              class="service-icon"
+            />
+            <h3 class="text-xl font-semibold mt-4">Discounted Offers</h3>
+            <p class="text-gray-600 mt-2">
+              Enjoy special discounts on selected gift cards for more savings.
+            </p>
+          </div>
+          <div class="service-card">
+            <img src="image/secure.jpeg" alt="Service 3" class="service-icon" />
+            <h3 class="text-xl font-semibold mt-4">Secure Transactions</h3>
+            <p class="text-gray-600 mt-2">
+              Shop with confidence knowing that your transactions are secure.
+            </p>
+          </div>
+          <div class="service-card">
+            <img
+              src="image/instant.jpeg"
+              alt="Service 4"
+              class="service-icon"
+            />
+            <h3 class="text-xl font-semibold mt-4">Instant Delivery</h3>
+            <p class="text-gray-600 mt-2">
+              Receive your gift card codes instantly via email for immediate
+              use.
+            </p>
+          </div>
+          <!-- Add more service cards here -->
+        </div>
+      </div>
+    </section>
+    <section class="upload-section py-16 bg-gray-200">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Upload Your Gift Card</h2>
+        <div class="card-2 p-8 mx-auto max-w-md bg-white shadow-lg rounded-lg">
+          <div class="mb-4">
+            <label for="giftCardImage" class="block text-lg font-semibold mb-2"
+              >Select or Drag &amp; Drop Image</label
+            >
+            <input type="file" id="giftCardImage" class="hidden" />
+            <div
+              id="previewContainer"
+              class="relative border-2 border-dashed border-gray-300 rounded-lg p-6 text-center"
+            >
+              <i
+                class="fas fa-cloud-upload-alt text-4xl text-gray-400 mb-2"
+              ></i>
+              <p class="text-gray-600">
+                Tap to upload or drag &amp; drop an image here
+              </p>
+              <img id="previewImage" class="hidden mt-4" alt="Preview Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact py-16" id="contact">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <div class="mb-4">
+              <h3 class="text-xl font-semibold">Contact Information</h3>
+              <p class="text-gray-600 mt-2">
+                <strong>Email:</strong> info@collinsetrade.com
+              </p>
+              <p class="text-gray-600">
+                <strong>Phone:</strong> +1 123 456 7890
+              </p>
+              <p class="text-gray-600">
+                <strong>Address:</strong> 123 Main Street, City, Country
+              </p>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold">Follow Us</h3>
+              <ul class="social-icons mt-2">
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3 class="text-xl font-semibold">Send us a Message</h3>
+            </div>
+            <form>
+              <div class="mb-4">
+                <label for="name" class="block font-semibold">Name</label>
+                <input type="text" id="name" class="form-input" required />
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block font-semibold">Email</label>
+                <input type="email" id="email" class="form-input" required />
+              </div>
+              <div class="mb-4">
+                <label for="message" class="block font-semibold">Message</label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  class="form-textarea"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-green text-white py-4">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2023 Collins E-trade. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Include the following scripts at the end of the HTML body -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
